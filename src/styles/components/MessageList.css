@@ -1,0 +1,49 @@
+.message-list {
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+.message-list__mail {
+  border: 1px solid #f5f5f5;
+  background: #ffffff;
+  height: 80px;
+  margin-bottom: 20px;
+  padding: 14px 15px 0 15px;
+  cursor: pointer;
+  box-shadow: 0 0 35px -15px rgba(165, 162, 162, 0.82);
+}
+
+.message-list__mail:hover {
+  background: #fbfbfb;
+  border: 1px solid #c5c5c5;
+}
+
+.message-list__mail-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.message-list__mail-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.message-list__mail-title {
+  font-size: 14px;
+}
+
+.message-list__mail-body {
+  font-size: 13px;
+}
+
+.message-list__mail-status {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.message-list__mail-status--to-read {
+  background: #ffb3b3;
+  padding: 6px;
+  border-radius: 50px;
+}

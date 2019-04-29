@@ -1,0 +1,14 @@
+.content {
+  display: flex;
+  justify-content: center;
+  padding-top: 14vh;
+  width: 100%;
+}
+
+.content__container {
+  width: 75%;
+  overflow-y: scroll;
+  height: 70vh;
+  padding: 0 15px;
+  background: #f5f5f5;
+}
